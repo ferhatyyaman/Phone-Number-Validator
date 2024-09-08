@@ -20,4 +20,4 @@ function validatePhoneNumber(phoneNumber) {
     return { isValid: true, message: 'Geçerli telefon numarası.' };
 }
 
-exports = validatePhoneNumber;
+export default validatePhoneNumber;
